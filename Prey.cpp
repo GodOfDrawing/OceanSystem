@@ -34,6 +34,7 @@ Prey::Prey(Coordinate& aCoord, Ocean* ocean) : Cell(aCoord, ocean)
 
 void Prey::process(void)
 {
+	
 	Coordinate toCoord;
 	toCoord = getEmptyNeighborCoord();
 	moveFrom(_offset, toCoord);

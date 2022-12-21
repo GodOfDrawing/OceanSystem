@@ -24,7 +24,7 @@ Cell* Cell::getNeighborWithImage(char im)
 	else return neighbors[_owner->getRandom().RanMax(count - 1)];
 }
 
-Coordinate Cell::getEmptyNeighborCoord(void)
+Coordinate Cell::getEmptyNeighborCoord()
 {
 	return getNeighborWithImage(DefaultImage)->getOffset();
 }

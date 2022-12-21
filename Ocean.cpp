@@ -210,7 +210,6 @@ void Ocean::run(void)
 			displayBorder();
 			std::cout.flush();
 		}
-		else break;
 	}
 
 	std::cout << "\n\nGAME OVER\n";

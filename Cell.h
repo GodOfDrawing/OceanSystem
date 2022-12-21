@@ -12,7 +12,7 @@ protected:
 	Cell* getCellAt(Coordinate aCoord);
 	void assignCellAt(Coordinate aCoord, Cell* aCell);
 	Cell* getNeighborWithImage(char im);
-	Coordinate getEmptyNeighborCoord(void);
+	Coordinate getEmptyNeighborCoord();
 	Coordinate getPreyNeighborCoord(void);
 	Cell* north(void);
 	Cell* south(void);

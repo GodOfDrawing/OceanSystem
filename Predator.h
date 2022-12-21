@@ -5,8 +5,7 @@
 class Predator : public Prey
 {
 private:
-	virtual Cell* reproduce(Coordinate anOffset, Ocean* ocean);
-
+	virtual Cell* reproduce(Coordinate anOffset);
 protected:
 	unsigned timeToFeed;
 

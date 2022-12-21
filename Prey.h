@@ -7,8 +7,8 @@ class Prey :
 protected:
     int timeToReproduce;
 
-    void moveFrom(Coordinate from, Coordinate to);
-    Cell* reproduce(Coordinate anOffset);
+    virtual void moveFrom(Coordinate from, Coordinate to);
+    virtual Cell* reproduce(Coordinate anOffset);
 
 public:
     Prey(Coordinate& aCoord, Ocean* ocean);
